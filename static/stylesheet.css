@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+  transition: transform 0.5s;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: center;
+  color: grey;
+  overflow: hidden;
+  background-color: grey;
+  color: #fff;
+}
+.name{
+  flex: 1;
+  text-align: center;
+
+}
+nav ul{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-flex;
+  margin-right: 20px;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: .25em 0;
+  padding: 0 1em;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  background-color: grey;
+}
+a{
+    text-decoration: none;
+    color: 484848;
+}
+
+p{
+  color: black;
+}
+.container{
+  margin: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #909090;
+  padding: : 5px 0;
+}
+.col-2{
+  width: 50%;
+  min-width: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
+.col-2 img {
+  width: 75%;
+  max-width: 500%;
+  padding: 50px 0;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.categories{
+  margin: 70px 0;
+  background-color: white;
+}
+.categories h1{
+  color: black;
+}
+.col-3{
+  flex-basis: 30%;
+  min-width: 350px;
+  min-height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 3px solid black;
+  transition: transform 0.5s;
+}
+.col-3:hover{
+  transform: translateY(-5px);
+}
+.col-3 img{
+  width: 100%
+
+}
+.categories img{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-items: center;
+
+}
+.col-4{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-4 img{
+  width: 100%;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  color: #555;
+}
+.col-4:hover{
+  transform: translateY(-5px);
+}
+.frow{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: grey;
+}
+.copyright{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: grey;
+}
+.btn {
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.btn:hover{
+  transform: translateY(-5px);
+}
+nav ul li a:hover{
+  transform: translateY(-5px);
+  color: black;
+}
+.small-container h1{
+  color: black;
+}
+.preview{
+  padding: 20px;
+}
+.selectedproduct{
+  padding: 40px;
+  background-color: #909090;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.productimage{
+  background-color: #9b9b9b;
+}
+
+
+.cart-page{
+  margin: 80px auto;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+th{
+  text-align: left;
+  padding: 5px;
+  color: white;
+  background: grey;
+  font-weight: normal;
+}
+td{
+  padding: 10px 5px;
+}
+td input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a{
+  color: grey;
+  font-size: 12px;
+}
+td img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table{
+  border-top: 3px solid grey;
+  width: 100%;
+  max-width: 350px;
+}
+th:last-child{
+  text-align: right;
+}
+td:last-child{
+  text-align: right;
+}
+.thankyou {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  align-text: center;
+}
+.small-img-row{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  flex-basis: 30%;
+  cursor: pointer;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #d3d3d3;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

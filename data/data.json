@@ -1,0 +1,37 @@
+{
+  "accounts": [
+    {
+      "Name":"MaskedTitan",
+      "Password":"hee hee",
+      "status" : "DND",
+      "shifts": [
+        {
+          "Name":"Finish hackathon project",
+          "start":"8:30",
+          "finish":"14:00"
+        },
+        "logins": {
+          [
+            {
+              "Username":"MASKTTN",
+              "Password":"sshhh"
+            }
+          ]
+        },
+        "meetings":[
+          {
+            "Name":"design meeting",
+            "start":"8:20",
+            "finish":"4:00"
+          }
+        ],
+        "Performance":{
+          "attendance":"100%",
+          "punctuality":"100%",
+          "Tasks finished":"75%",
+          "Overall":"82%"
+        }
+      ]
+    }
+  ]
+}

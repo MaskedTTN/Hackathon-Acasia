@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple work portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .aimage{
+        transition: transform 0.5s;
+      }
+      .aimage:hover{
+        transform: scale(1.09);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="{{url_for('static', filename='logo.png')}}" width="70px" />
+        </div>
+        <div class="name">
+          <h1>Acasia</h1>
+        </div>
+      </div>
+      <div class="name">
+        <h3>happiness comes with simplicity</h3>
+      </div>
+      <nav>
+        <ul>
+          <li><a style="color:white" href=shifts>Shifts</a></li>
+          <li><a style="color:white" href=performance>Performance report</a></li>
+          <li><a style="color:white" href="passwords">Passwords</a></li>
+          <li><a style="color:white" href="status">status</a></li>
+        </ul>
+      </nav>
+        <!---shifts interface---->
+        <div class="row">
+          <h1>Upcoming shifts</h1>
+          <h3>starting time : {{ starting }}</h3>
+          <h3>ending time : {{ ending }}</h3>
+          <h1>location : {{ location }}</h1>
+        </div>
+
+
+    <!-------- categories --------->
+    <div class="categories">
+      <h1 class="title">Tasks</h1>
+      <div class="row">
+        <div class="col-3">
+          <a style="color: black" href="shifts">
+            <h2>Upcoming Shifts</h2>
+            <img src="{{url_for('static', filename='logo.png')}}">
+          </a>
+        </div>
+        <div class="col-3">
+          <a style="color: black" href="allshoes.html">
+            <h2>View performance report</h2>
+            <img src="{{url_for('static', filename='logo.png')}}">
+          </a>
+        </div>
+        <div class="col-3">
+          <a style="color: black" href="allequipment.html">
+            <h2>change status</h2>
+            <img src="{{url_for('static', filename='logo.png')}}">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-------footer---------->
+    <div class="footer">
+      <div class="container">
+        <div class="frow">
+          <div class="footer-col-1">
+            <h3>Customer Services</h3>
+            <p>FAQ's<br>orders & payments<br>Delivery information<br>Return<br>Shopping</p>
+          </div>
+          <div class="footer-col-2">
+            <h3>About Us</h3>
+            <p>Student discount<br>Jobs<br>Terms & conditions<br></p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Follow Us</h3>
+            <p>Facebook<br>Instagram<br>TikTok</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Mustaeen &copy;</p>
+        </div>
+      </div>
+    </div>
+    <!----javascript---->
+    <script>
+    </script>
+  </body>
+</html>
