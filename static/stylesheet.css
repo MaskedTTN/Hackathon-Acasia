@@ -17,7 +17,7 @@ nav{
   text-align: center;
   color: grey;
   overflow: hidden;
-  background-color: grey;
+  background-color: #57D36B;
   color: #fff;
 }
 .name{
@@ -41,7 +41,7 @@ nav ul li{
   padding: 0 1em;
   text-align: center;
   border-left: 1px solid #ccc;
-  background-color: grey;
+  background-color: #57D36B;
 }
 a{
     text-decoration: none;
@@ -61,7 +61,7 @@ p{
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #909090;
+  background-color: #AAD94C;
   padding: : 5px 0;
 }
 .col-2{
@@ -136,14 +136,14 @@ p{
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: grey;
+  background-color: #57D36B;
 }
 .copyright{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: grey;
+  background-color: #57D36B;
 }
 .btn {
   display: inline-block;
@@ -241,7 +241,7 @@ td:last-child{
   flex-basis: 30%;
   cursor: pointer;
 }
-input[type=text], select, textarea {
+/*input[type=text], select, textarea {*/
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
@@ -250,7 +250,7 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
+/*}*/
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {

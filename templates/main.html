@@ -38,14 +38,14 @@
         </ul>
         <div class="row">
           <div class="col-2">
-            <img class="aimage" src="images/hhoodie.png">
+            <img class="aimage" src="{{url_for('static', filename='meeting_thumbnail.png')}}">
           </div>
           <div class="col-2">
             <h1>First meeting of the day:</h1>
             <p> <br>Name : {{ name }}<br>
             Starting Time : {{ start }} <br>
             Ending Time : {{ end }}<br></p>
-            <a href="hhoodie.html" class="btn"><img src="images/shopnow.png"></a>
+            <a href="hhoodie.html" class="btn"><img src="{{url_for('static', filename='joinmeeting.png')}}"></a>
           </div>
         </div>
       </nav>

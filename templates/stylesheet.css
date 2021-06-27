@@ -94,7 +94,7 @@ p{
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
-  border: 3px solid black;
+  border: 3px solid green;
   transition: transform 0.5s;
 }
 .col-3:hover{
