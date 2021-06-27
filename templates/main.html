@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Simple work portal</title>
+    <title>Acasia work portal</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
@@ -52,24 +52,24 @@
 
     <!-------- categories --------->
     <div class="categories">
-      <h1 class="title">Tasks</h1>
+      <h1 class="title">Reccomended Tasks</h1>
       <div class="row">
         <div class="col-3">
           <a style="color: black" href="shifts">
             <h2>Upcoming Shifts</h2>
-            <img src="{{url_for('static', filename='logo.png')}}">
+            <img src="{{url_for('static', filename='shifts.png')}}">
           </a>
         </div>
         <div class="col-3">
-          <a style="color: black" href="allshoes.html">
+          <a style="color: black" href="performance">
             <h2>View performance report</h2>
-            <img src="{{url_for('static', filename='logo.png')}}">
+            <img src="{{url_for('static', filename='report.png')}}">
           </a>
         </div>
         <div class="col-3">
-          <a style="color: black" href="allequipment.html">
+          <a style="color: black" href="status">
             <h2>change status</h2>
-            <img src="{{url_for('static', filename='logo.png')}}">
+            <img src="{{url_for('static', filename='status.png')}}">
           </a>
         </div>
       </div>
