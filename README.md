@@ -14,3 +14,8 @@ Suggests that you should change passwords by set time intervals such as a month.
 - Includes a performance report that gives employees a clear list of objectives and awards to improve on. This also helps organisations view their progress
 
 NOTE: Some of these are just ideas that were unfeasible to be prototyped within 24 hours and as of little experience using Flask and stuff.
+
+Coders:
+ -MaskedTitan (マスクタイタン)#0001
+ -toheed05#8296
+ -Jazzucci#7422
